@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <style>
+          .macbook-pro {
+            background-color: #ffffff;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            width: 100%;
+        }
+        
+        .macbook-pro .overlap-wrapper {
+            background-color: #ffffff;
+            overflow: hidden;
+            width: 1528px;
+            height: 1007px;
+        }
+        
+        .macbook-pro .overlap {
+            position: relative;
+            width: 1728px;
+            height: 1117px;
+            top: -68px;
+            left: -108px;
+        }
+        
+        .macbook-pro .div {
+            position: absolute;
+            width: 1728px;
+            height: 1117px;
+            top: 0;
+            left: 0;
+            background-color: #a084e6;
+            overflow: hidden;
+        }
+        
+        .macbook-pro .overlap-group {
+            position: absolute;
+            width: 3172px;
+            height: 1117px;
+            top: 0;
+            left: -1444px;
+        }
+        
+        .macbook-pro .rectangle {
+            position: absolute;
+            width: 1728px;
+            height: 1117px;
+            top: 0;
+            left: 1444px;
+            border-radius: 10px;
+            background: linear-gradient(180deg, rgb(160, 132, 230) 0%, rgb(197, 170, 233) 100%);
+        }
+        
+        .macbook-pro .img {
+            position: absolute;
+            width: 1528px;
+            height: 1007px;
+            top: 68px;
+            left: 1552px;
+        }
+        
+        .macbook-pro .div-2 {
+            position: absolute;
+            width: 1512px;
+            height: 982px;
+            top: 36px;
+            left: 0;
+            background-color: #ffffff;
+            overflow: hidden;
+        }
+        
+        .macbook-pro .overlap-group-2 {
+            position: absolute;
+            width: 1512px;
+            height: 982px;
+            top: 0;
+            left: 0;
+            background: linear-gradient(180deg, rgb(214, 158, 229) 0%, rgb(189, 229, 218) 100%);
+        }
+        
+        .macbook-pro .rectangle-2 {
+            width: 703px;
+            height: 783px;
+            top: 100px;
+            left: 404px;
+            background-color: #d9d9d9;
+            border-radius: 64px;
+            backdrop-filter: blur(4px) brightness(100%);
+            -webkit-backdrop-filter: blur(4px) brightness(100%);
+            position: absolute;
+            mix-blend-mode: multiply;
+        }
+        
+        .macbook-pro .text-wrapper {
+            position: absolute;
+            top: 754px;
+            left: 675px;
+            font-family: "IBM Plex Mono-Regular", Helvetica;
+            font-weight: 400;
+            color: #000000;
+            font-size: 45px;
+            letter-spacing: 0;
+            line-height: normal;
+        }
+        
+        .macbook-pro .rectangle-3 {
+            position: absolute;
+            width: 34px;
+            height: 34px;
+            top: 653px;
+            left: 496px;
+            background-color: #d9d9d9;
+        }
+        
+        .macbook-pro .text-wrapper-2 {
+            position: absolute;
+            top: 652px;
+            left: 546px;
+            font-family: "Ubuntu-Regular", Helvetica;
+            font-weight: 400;
+            color: #ffffff;
+            font-size: 30px;
+            letter-spacing: 0;
+            line-height: normal;
+            white-space: nowrap;
+        }
+        
+        .macbook-pro .text-wrapper-3 {
+            position: absolute;
+            top: 647px;
+            left: 796px;
+            font-family: "IBM Plex Mono-Regular", Helvetica;
+            font-weight: 400;
+            color: #ffffff;
+            font-size: 30px;
+            letter-spacing: 0;
+            line-height: normal;
+        }
+        
+        .macbook-pro .rectangle-4 {
+            position: absolute;
+            width: 622px;
+            height: 88px;
+            top: 363px;
+            left: 445px;
+            background-color: #d9d9d9;
+            border-radius: 64px;
+            backdrop-filter: blur(4px) brightness(100%);
+            -webkit-backdrop-filter: blur(4px) brightness(100%);
+            mix-blend-mode: multiply;
+        }
+        
+        .macbook-pro .rectangle-5 {
+            position: absolute;
+            width: 622px;
+            height: 88px;
+            top: 521px;
+            left: 445px;
+            background-color: #d9d9d9;
+            border-radius: 64px;
+            backdrop-filter: blur(4px) brightness(100%);
+            -webkit-backdrop-filter: blur(4px) brightness(100%);
+            mix-blend-mode: multiply;
+        }
+        
+        .macbook-pro .text-wrapper-4 {
+            position: absolute;
+            top: 538px;
+            left: 496px;
+            font-family: "Ubuntu-Regular", Helvetica;
+            font-weight: 400;
+            color: #ffffff;
+            font-size: 50px;
+            letter-spacing: 0;
+            line-height: normal;
+        }
+        
+        .macbook-pro .rectangle-6 {
+            position: absolute;
+            width: 475px;
+            height: 115px;
+            top: 158px;
+            left: 518px;
+            background-color: #d9d9d9;
+            border-radius: 64px;
+            backdrop-filter: blur(4px) brightness(100%);
+            -webkit-backdrop-filter: blur(4px) brightness(100%);
+            mix-blend-mode: multiply;
+        }
+        
+        .macbook-pro .login {
+            position: absolute;
+            width: 300px;
+            top: 168px;
+            left: 673px;
+            font-family: "Ubuntu-Regular", Helvetica;
+            font-weight: 400;
+            color: transparent;
+            font-size: 70px;
+            letter-spacing: 0;
+            line-height: normal;
+        }
+        
+        .macbook-pro .span {
+            color: #ffffff;
+        }
+        
+        .macbook-pro .text-wrapper-5 {
+            color: #000000;
+            font-size: 50px;
+        }
+        
+        .macbook-pro .text-wrapper-6 {
+            position: absolute;
+            width: 300px;
+            top: 377px;
+            left: 496px;
+            font-family: "Ubuntu-Regular", Helvetica;
+            font-weight: 400;
+            color: #ffffff;
+            font-size: 50px;
+            letter-spacing: 0;
+            line-height: normal;
+        }
+        
+        .macbook-pro .rectangle-7 {
+            position: absolute;
+            width: 410px;
+            height: 82px;
+            top: 1632px;
+            left: -4063px;
+        }
+        
+        .macbook-pro .rectangle-8 {
+            position: absolute;
+            width: 205px;
+            height: 1px;
+            top: 1075px;
+            left: 2875px;
+        }
+        
+        .macbook-pro .text-wrapper-7 {
+            position: absolute;
+            top: 149px;
+            left: 1650px;
+            font-family: "Ubuntu-Regular", Helvetica;
+            font-weight: 400;
+            color: #ffffff;
+            font-size: 100px;
+            letter-spacing: 0;
+            line-height: normal;
+            white-space: nowrap;
+        }
+        
+        .macbook-pro .text-wrapper-8 {
+            position: absolute;
+            width: 318px;
+            top: 415px;
+            left: 1672px;
+            font-family: "IBM Plex Mono-Regular", Helvetica;
+            font-weight: 400;
+            color: #ffffff;
+            font-size: 40px;
+            letter-spacing: 0;
+            line-height: normal;
+        }
+        
+        .macbook-pro .text-wrapper-9 {
+            position: absolute;
+            width: 318px;
+            top: 903px;
+            left: 1678px;
+            font-family: "IBM Plex Mono-Regular", Helvetica;
+            font-weight: 400;
+            color: #ffffff;
+            font-size: 40px;
+            letter-spacing: 0;
+            line-height: normal;
+        }
+        
+        .macbook-pro .text-wrapper-10 {
+            position: absolute;
+            width: 318px;
+            top: 803px;
+            left: 1678px;
+            font-family: "IBM Plex Mono-Regular", Helvetica;
+            font-weight: 400;
+            color: #ffffff;
+            font-size: 40px;
+            letter-spacing: 0;
+            line-height: normal;
+        }
+        
+        .macbook-pro .text {
+            position: absolute;
+            width: 318px;
+            top: 451px;
+            left: 1678px;
+            font-family: "IBM Plex Mono-Regular", Helvetica;
+            font-weight: 400;
+            color: #ffffff;
+            font-size: 40px;
+            letter-spacing: 0;
+            line-height: normal;
+        }
+        
+        .macbook-pro .rectangle-9 {
+            position: absolute;
+            width: 576px;
+            height: 62px;
+            top: 100px;
+            left: 2020px;
+        }
+        
+        .macbook-pro .text-wrapper-11 {
+            position: absolute;
+            top: 104px;
+            left: 2065px;
+            mix-blend-mode: overlay;
+            font-family: "IBM Plex Mono-Regular", Helvetica;
+            font-weight: 400;
+            color: #000000;
+            font-size: 40px;
+            letter-spacing: 0;
+            line-height: normal;
+        }
+        
+        .macbook-pro .ellipse {
+            position: absolute;
+            width: 89px;
+            height: 73px;
+            top: 90px;
+            left: 2912px;
+            mix-blend-mode: darken;
+        }
+        
+        .macbook-pro .text-wrapper-12 {
+            position: absolute;
+            top: 111px;
+            left: 2939px;
+            font-family: "IBM Plex Mono-Regular", Helvetica;
+            font-weight: 400;
+            color: #000000;
+            font-size: 30px;
+            letter-spacing: 0;
+            line-height: normal;
+        }
+        
+        .macbook-pro .text-wrapper-13 {
+            top: 111px;
+            left: 2741px;
+            color: #ffffff;
+            position: absolute;
+            font-family: "IBM Plex Mono-Regular", Helvetica;
+            font-weight: 400;
+            font-size: 30px;
+            letter-spacing: 0;
+            line-height: normal;
+        }
+        
+        .macbook-pro .ellipse-2 {
+            position: absolute;
+            width: 290px;
+            height: 280px;
+            top: 269px;
+            left: 2711px;
+            background-color: #d9d9d9;
+            border-radius: 145px/140px;
+            mix-blend-mode: color-burn;
+        }
+        
+        .macbook-pro .text-wrapper-14 {
+            position: absolute;
+            top: 399px;
+            left: 2721px;
+            font-family: "IBM Plex Mono-Regular", Helvetica;
+            font-weight: 400;
+            color: #000000;
+            font-size: 30px;
+            letter-spacing: 0;
+            line-height: normal;
+        }
+        
+        .macbook-pro .rectangle-10 {
+            position: absolute;
+            width: 525px;
+            height: 53px;
+            top: 322px;
+            left: 2057px;
+            background-color: #d9d9d9;
+            border-radius: 21px;
+            mix-blend-mode: color-burn;
+        }
+        
+        .macbook-pro .text-wrapper-15 {
+            position: absolute;
+            top: 332px;
+            left: 2075px;
+            mix-blend-mode: darken;
+            font-family: "IBM Plex Mono-Regular", Helvetica;
+            font-weight: 400;
+            color: #000000;
+            font-size: 30px;
+            letter-spacing: 0;
+            line-height: normal;
+        }
+        
+        .macbook-pro .rectangle-11 {
+            position: absolute;
+            width: 525px;
+            height: 53px;
+            top: 544px;
+            left: 2056px;
+            background-color: #d9d9d9;
+            border-radius: 21px;
+            mix-blend-mode: color-burn;
+        }
+        
+        .macbook-pro .rectangle-12 {
+            position: absolute;
+            width: 525px;
+            height: 53px;
+            top: 652px;
+            left: 2057px;
+            mix-blend-mode: color-burn;
+        }
+        
+        .macbook-pro .rectangle-13 {
+            position: absolute;
+            width: 525px;
+            height: 53px;
+            top: 767px;
+            left: 2057px;
+            background-color: #d9d9d9;
+            border-radius: 21px;
+            mix-blend-mode: color-burn;
+        }
+        
+        .macbook-pro .rectangle-14 {
+            position: absolute;
+            width: 525px;
+            height: 53px;
+            top: 431px;
+            left: 2056px;
+            background-color: #d9d9d9;
+            border-radius: 21px;
+            mix-blend-mode: color-burn;
+        }
+        
+        .macbook-pro .text-wrapper-16 {
+            position: absolute;
+            top: 270px;
+            left: 2056px;
+            font-family: "IBM Plex Mono-Regular", Helvetica;
+            font-weight: 400;
+            color: #000000;
+            font-size: 30px;
+            letter-spacing: 0;
+            line-height: normal;
+        }
+        
+        .macbook-pro .text-wrapper-17 {
+            position: absolute;
+            top: 389px;
+            left: 2057px;
+            font-family: "IBM Plex Mono-Regular", Helvetica;
+            font-weight: 400;
+            color: #000000;
+            font-size: 30px;
+            letter-spacing: 0;
+            line-height: normal;
+        }
+        
+        .macbook-pro .text-wrapper-18 {
+            position: absolute;
+            top: 497px;
+            left: 2057px;
+            font-family: "IBM Plex Mono-Regular", Helvetica;
+            font-weight: 400;
+            color: #000000;
+            font-size: 30px;
+            letter-spacing: 0;
+            line-height: normal;
+        }
+        
+        .macbook-pro .text-wrapper-19 {
+            position: absolute;
+            top: 609px;
+            left: 2057px;
+            font-family: "IBM Plex Mono-Regular", Helvetica;
+            font-weight: 400;
+            color: #000000;
+            font-size: 30px;
+            letter-spacing: 0;
+            line-height: normal;
+        }
+        
+        .macbook-pro .text-wrapper-20 {
+            position: absolute;
+            top: 715px;
+            left: 2057px;
+            font-family: "IBM Plex Mono-Regular", Helvetica;
+            font-weight: 400;
+            color: #000000;
+            font-size: 30px;
+            letter-spacing: 0;
+            line-height: normal;
+        }
+        
+        .macbook-pro .text-wrapper-21 {
+            position: absolute;
+            top: 437px;
+            left: 2075px;
+            font-family: "IBM Plex Mono-Regular", Helvetica;
+            font-weight: 400;
+            color: #000000;
+            font-size: 30px;
+            letter-spacing: 0;
+            line-height: normal;
+        }
+        
+        .macbook-pro .text-wrapper-22 {
+            position: absolute;
+            top: 545px;
+            left: 2075px;
+            font-family: "IBM Plex Mono-Regular", Helvetica;
+            font-weight: 400;
+            color: #000000;
+            font-size: 30px;
+            letter-spacing: 0;
+            line-height: normal;
+        }
+        
+        .macbook-pro .user-address {
+            top: 780px;
+            left: 2075px;
+            color: #000000;
+            position: absolute;
+            font-family: "IBM Plex Mono-Regular", Helvetica;
+            font-weight: 400;
+            font-size: 30px;
+            letter-spacing: 0;
+            line-height: normal;
+        }
+        
+        .macbook-pro .text-wrapper-23 {
+            position: absolute;
+            top: 657px;
+            left: 2079px;
+            font-family: "IBM Plex Mono-Regular", Helvetica;
+            font-weight: 400;
+            color: #000000;
+            font-size: 30px;
+            letter-spacing: 0;
+            line-height: normal;
+        }
+        
+        .macbook-pro .image {
+            width: 50px;
+            height: 50px;
+            top: 889px;
+            left: 1603px;
+            position: absolute;
+            object-fit: cover;
+        }
+        
+        .macbook-pro .rectangle-15 {
+            width: 1673px;
+            height: 180px;
+            top: 952px;
+            left: -6031px;
+            position: absolute;
+            mix-blend-mode: multiply;
+        }
+        
+        .macbook-pro .rectangle-16 {
+            position: absolute;
+            width: 357px;
+            height: 988px;
+            top: 2544px;
+            left: -5310px;
+            mix-blend-mode: overlay;
+        }
+        
+        .macbook-pro .SETTINGS {
+            position: absolute;
+            width: 65px;
+            height: 56px;
+            top: 794px;
+            left: 152px;
+            mix-blend-mode: darken;
+            object-fit: cover;
+        }
+        
+        .macbook-pro .image-2 {
+            width: 57px;
+            height: 63px;
+            top: 416px;
+            left: 156px;
+            position: absolute;
+            object-fit: cover;
+        }  
+        </style>
+    </head>
+    <body>
+        <div class="macbook-pro">
+            <div class="overlap-wrapper">
+                <div class="overlap">
+                    <div class="div">
+                        <div class="overlap-group">
+                            <div class="rectangle"></div>
+                            <img class="img" src="img/rectangle.svg" />
+                            <div class="div-2">
+                                <div class="overlap-group-2">
+                                    <div class="rectangle-2"></div>
+                                    <div class="text-wrapper">SUBMIT</div>
+                                    <div class="rectangle-3"></div>
+                                    <div class="text-wrapper-2">Remember me</div>
+                                    <div class="text-wrapper-3">forgot password?</div>
+                                    <div class="rectangle-4"></div>
+                                    <div class="rectangle-5"></div>
+                                    <div class="text-wrapper-4">password</div>
+                                    <div class="rectangle-6"></div>
+                                    <p class="login"><span class="span">Login</span> <span class="text-wrapper-5">&nbsp;</span></p>
+                                    <div class="text-wrapper-6">email id</div>
+                                </div>
+                                <img class="rectangle-7" src="img/rectangle-6.svg" />
+                            </div>
+                            <img class="rectangle-8" src="img/rectangle-8.svg" />
+                            <div class="text-wrapper-7">Nysa</div>
+                            <div class="text-wrapper-8">Home</div>
+                            <div class="text-wrapper-9">Log out</div>
+                            <div class="text-wrapper-10">Settings</div>
+                            <div class="text"></div>
+                            <img class="rectangle-9" src="img/rectangle-9.svg" />
+                            <div class="text-wrapper-11">search</div>
+                            <img class="ellipse" src="img/ellipse-1.svg" />
+                            <div class="text-wrapper-12">UN</div>
+                            <div class="text-wrapper-13">USER NAME</div>
+                            <div class="ellipse-2"></div>
+                            <div class="text-wrapper-14">PROFILE PICTURE</div>
+                            <div class="rectangle-10"></div>
+                            <div class="text-wrapper-15">User name</div>
+                            <div class="rectangle-11"></div>
+                            <img class="rectangle-12" src="img/rectangle-13.svg" />
+                            <div class="rectangle-13"></div>
+                            <div class="rectangle-14"></div>
+                            <div class="text-wrapper-16">FULL NAME</div>
+                            <div class="text-wrapper-17">Email-ID</div>
+                            <div class="text-wrapper-18">Employee-ID</div>
+                            <div class="text-wrapper-19">Phone number</div>
+                            <div class="text-wrapper-20">Address</div>
+                            <div class="text-wrapper-21">User email-id</div>
+                            <div class="text-wrapper-22">User employee-id</div>
+                            <div class="user-address">User&nbsp;&nbsp;address</div>
+                            <div class="text-wrapper-23">User phone number</div>
+                            <img class="image" src="img/image-7.png" />
+                        </div>
+                        <img class="rectangle-15" src="img/rectangle-1.svg" />
+                        <img class="rectangle-16" src="img/image.svg" />
+                    </div>
+                    <img class="SETTINGS" src="img/SETTINGS-1.png" />
+                    <img class="image-2" src="img/image-8.png" />
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
